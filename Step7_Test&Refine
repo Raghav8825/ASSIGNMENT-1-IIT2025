@@ -1,0 +1,18 @@
+Step test and refine-
+1.	Pet eats as expected
+
+○	The feeder drops food on time, and the bowl sensor shows that the pet ate the portion.
+○	No alert is triggered, which is exactly what we wanted.
+2.	Pet does not eat
+○	Food is dropped, but the sensor shows little or no food was eaten.
+
+○	The system sends a buzzer or app message to let us know the pet didn’t eat, which is correct.
+3.	Food bin is empty
+○	The sensor detects the bin is low or empty before dispensing.
+○	The system sends an alert to notify staff, as expected.
+Comparison with expectations
+●	In all cases, the feeder worked as planned. The motor dropped the right amount of food, the sensors correctly detected food levels and eating, and alerts were sent when needed.
+Suggested improvements
+●	Keep a record of feeding history for several days.
+●	Allow adjusting portion sizes depending on the pet’s appetite or size.
+●	Add a backup plan if the motor jams or food gets stuck.
