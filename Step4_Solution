@@ -1,0 +1,9 @@
+●	Solution-
+1.	Start system.
+2.	Wait for feeding time.
+3.	If feeding time = time in clock  → check container food level.
+4.	If food available in container → rotate motor to drop portion.
+5.	Wait 10 minutes.
+6.	Check if bowl weight decreased means the pet ate the food.
+7.	If yes → return to idle and do nothing . If no → send message
+8.	If container empty → send message immediately.
