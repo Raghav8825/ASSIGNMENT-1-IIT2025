@@ -1,0 +1,36 @@
+Solution 1 – Sequential Step Approach
+Power on the system and initialize all sensors.
+Continuously monitor the current time.
+When the current time matches a scheduled feeding:
+Check the food container level.
+If the container has food, activate the motor to dispense a portion.
+If the container is empty, send an immediate alert.
+Wait 10 minutes.
+Measure bowl weight to verify if the pet ate.
+If eaten, return to idle mode.
+If not eaten, send a notification.
+Resume monitoring for the next feeding time.
+
+
+Solution 2 – Event-Driven Logic
+Event: Feeding time reached →
+Condition: Food in container → dispense portion.
+Condition: Container empty → send alert immediately.
+Event: 10 minutes after dispensing →
+Condition: Bowl weight decreased → idle.
+Condition: Bowl weight unchanged → send notification.
+Repeat for all scheduled feeding times.
+
+
+Solution 3 – Flowchart-Style Logic
+Start system → Initialize sensors.
+Is it feeding time?
+No → keep waiting.
+Yes → check container.
+Container full?
+Yes → dispense food → wait 10 minutes → check bowl.
+No → send alert → return to idle.
+Bowl weight decreased?
+Yes → return to idle.
+No → send notification.
+Repeat cycle for next feeding.
