@@ -1,0 +1,22 @@
+**WORD CODE ENHANCED BY COPILOT**
+
+1. System Initialization
+Power on the feeder and initialize all sensors.
+Verify that the motor, buzzer, and alert system are functioning correctly.
+2. Feeding Schedule Setup
+Store designated feeding times (e.g., 08:00, 12:30, 18:00).
+Continuously monitor the clock and trigger the dispensing process when the current time matches a scheduled feeding.
+3. Food Availability Check and Dispensing
+Read the food bin sensor and trigger an alert if the bin is empty or running low.
+Activate the motor to dispense a single portion of food (~100g).
+4. Pet Feeding Monitoring
+Use the bowl weight sensor to determine if the pet has consumed the dispensed food.
+Send an alert if the pet has not eaten within 30 minutes.
+5. Manual Override and Alerts
+Allow staff to manually dispense food using the designated button.
+Activate visual (LED), audible (buzzer), or app notifications if an issue occurs.
+6. Cycle Repeat
+Return to monitoring the clock and sensors to prepare for the next feeding time.
+
+
+
