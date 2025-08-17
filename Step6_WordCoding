@@ -1,0 +1,23 @@
+Word coding-
+Start the system
+●	Turn on the feeder and initialize all sensors.
+
+●	Check that the motor, buzzer, and alert system are ready.
+Set feeding times and monitor clock
+●	Store feeding times (e.g., 08:00, 12:30, 18:00).
+
+●	When current time matches a feeding time, proceed to dispense food.
+Check food availability and dispense
+●	Read the food bin sensor. Trigger alert if the bin is empty or low.
+
+●	Activate motor to drop one portion of food (~100g).
+          Monitor pet eating
+●	Use the bowl weight sensor to check if the pet has eaten enough.
+
+●	Send an alert if not eaten within 30 minutes.
+Manual override and alerts
+●	Allow staff to manually dispense food using the button.
+
+●	Activate buzzer, LED, or app message if there is a problem.
+Repeat the cycle
+●	Go back to monitoring the clock and sensors for the next feeding time.
