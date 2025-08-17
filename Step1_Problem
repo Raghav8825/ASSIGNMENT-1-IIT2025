@@ -1,0 +1,5 @@
+Step 1: problem -
+The animal shelter wants an automated pet feeder that works for cats and dogs. The system must:
+1.	Give food at certain times of the day.
+2.	Check if the food is eaten and how much.
+3.	Send a message if something goes wrong (like no food given or not eaten).
